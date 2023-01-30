@@ -31,3 +31,5 @@ git stash drop -> Para eliminar el stash porque no sirve para nada
 git diff "Nombre archivo/rama" -> Para ver si hay conflictos
 
 git remote add origin git@github.com:"Repositorio" -> Para añadir el repositorio a la carpeta en la que estamos
+
+git fetch -> Para descargar el historial de cambios pero sin descargar los cambios
