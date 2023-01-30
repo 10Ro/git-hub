@@ -1,0 +1,33 @@
+git init -> Para empezar git en la carpeta en la que estamos
+
+git config --global user.name "Nombre   "-> Para cualquier configuración de global de git
+git config --global alias."Nombre" -> Para crear alias de comandos que usemos mucho y asi no escribir el comando todas las veces
+git "Nombre de los alias" -> Para ejecutar los alias
+
+git add "Nombre del archivo" -> Añade el archivo a la cola de modificación.
+git commit -m "Comentario" -> Actualiza al archivo con sus modificaciones.
+
+git checkout "Nombre del archivo" -> Nos actualiza el archivo al guardado anterior
+
+git log -> Para ver los commits que has hecho y los comentarios en cada commit
+git status -> Para ver si hay algún archivo sin guardar los cambios
+
+git rest --hard -> Para volver a un punto eliminando lo posterior
+
+git reflog -> Para ver el historial de los commits
+
+git tag -> Para crear etiquetas
+
+git branch "Nombre de la rama" -> Para crear una rama
+git branch -m "Nombre de la rama" -> Para cambiar el nombre de la rama
+git switch "Nombre de la rama" -> Para cambiar de ramas
+
+git merge -> Para juntar el trabajo de dos ramas.
+
+git stash -> Para guardar sin hacer un commit 
+git stash pop -> Para sacar el stash para trabajar con ello
+git stash drop -> Para eliminar el stash porque no sirve para nada
+
+git diff "Nombre archivo/rama" -> Para ver si hay conflictos
+
+git remote add origin git@github.com:"Repositorio" -> Para añadir el repositorio a la carpeta en la que estamos
